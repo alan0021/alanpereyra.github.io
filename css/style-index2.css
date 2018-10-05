@@ -1,0 +1,40 @@
+*{
+
+	font-family: Ubuntu, sans-serif;
+}
+
+h1
+{
+	color: #cc9900;
+}
+
+header 
+{
+    background-color: lightyellow;  
+ 	background-image: url(img/fondo2.jpg);
+ 	background-size: cover;
+
+}
+
+
+body 
+ {
+ 	
+    background-color: #818083  ;
+    padding: 3px 10px;
+ border-top: 25px solid black;
+  border-right: 150px solid black;
+  border-bottom: 25px solid black;
+  border-left: 150px solid black;
+  	background: white;
+
+}
+
+h2 
+{
+	font-style: italic bold;
+	font-size: 120%;
+	color: white;
+	
+}
+

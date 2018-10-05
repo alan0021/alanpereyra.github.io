@@ -1,0 +1,78 @@
+*{
+
+	font-family: Ubuntu, sans-serif;
+}
+
+h1
+{
+	color: #cc9900;
+}
+
+header 
+{
+    background-color: lightyellow;  
+ 	background-image: url(img/fondo2.jpg);
+ 	background-size: cover;
+
+}
+
+
+body 
+ {
+ 	
+    background-color: #060037  ;
+
+}
+
+h2 
+{
+	font-style: italic bold;
+	font-size: 120%;
+	color: white;
+	
+}
+
+/*centrdo de la barra de paginas siguientes*/
+.pagination {
+	display: flex;
+justify-content: center;
+align-items: center;
+
+}
+/*le da el estilo y color de la barra de paginas siguientes*/
+.page-link {
+	text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #FE9A2E;
+    
+  }
+  .page-link:hover{
+    color: #FE9A2E;
+    background-color: #D17200;
+}
+
+footer {
+	background: linear-gradient(to bottom, rgba(35, 57, 179, 0) 70%,rgb(255, 255, 255) 100%);
+
+	 background-color: #060037;
+	 padding: 20px;
+
+}
+.estiloparrafo {
+	color: white;
+}
+.imagenes{
+
+	background: linear-gradient(to bottom, rgba(35, 57, 179, 0) 50%,rgb(255, 255, 255) 100%);
+}
+.img {
+	transition: all 0.2s;
+}
+.img:hover{
+	transform: scale(1.18);
+	border: solid orange 5px;
+}
+
